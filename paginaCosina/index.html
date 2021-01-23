@@ -5,14 +5,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>El chef</title>
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/mq.css">
 </head>
 <body>
-	<!-- Logo menú banner -->
+<div class="contenedor">
+			<!-- Logo menú banner -->
 	<header>
 
 		<!-- menú navegación -->
 		<nav>
-			<a href="./index.html"><img src="./img/chef-logo.png" alt="logo"></a>
+			<a href="./index.html"><img class="img-logo" src="./img/chef-logo.png" alt="logo"></a>
 			<ul>
 				<li>Inicio</li>
 				<li><a href="./recetaColombiana.html">Receta Colombiana</a></li>
@@ -21,8 +23,64 @@
 			</ul>
 		</nav>
 
-		<img src="img/banner.jpg" alt="banner comida">
+		<img src="img/banner.jpg" class="img-banner" alt="banner comida">
 	</header>
-	
+
+		<!-- primera sección con vídeo y articulo -->
+	<section class="featured">
+		<!-- video -->
+		<iframe class="fp-video" max-width="560" height="315" src="https://www.youtube.com/embed/7N_43Ikgie0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+		<!-- articulo -->
+		<article class="ft-art">
+			<h1>Recetas del mundo</h1>
+			<p>
+				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt id vitae, cum. Commodi nemo consequuntur laboriosam totam eaque cumque quidem nulla omnis consectetur quisquam! Quasi adipisci expedita harum amet vero culpa, placeat eius beatae provident?
+			</p>
+			<div class="boton-container">
+				<a href="#"><div class="boton">Más info</div></a> 
+			</div>
+		</article>
+	</section>
+
+	<!-- primera sección con vídeo y articulo -->
+
+	<section>
+
+		<article>
+			<figure class="art-image">
+				<img src="img/Comida02.jpg" alt="Imagen de comida 2">
+			</figure>
+
+			<div class="art-cont">
+				<h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, praesentium eum delectus.</h2>
+				<p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Iusto vitae illo architecto et, magni necessitatibus, dignissimos tenetur suscipit, soluta, dolores at cupiditate? Perspiciatis officia ipsam esse, pariatur illo provident nihil odit eligendi ducimus eaque fugit?</p>
+			</div>
+		</article>
+
+		<article>
+			<figure class="art-image">
+				<img src="img/Comida03.jpg" alt="Imagen de comida 3">
+			</figure>
+
+			<div class="art-cont">
+				<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis libero atque dolorem harum aperiam similique.</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit aspernatur magni odit, quaerat quia quod id. Architecto quasi quis quas consequatur, minima? Voluptas, iusto neque rem nam libero deserunt voluptatem a quam earum minima numquam omnis, possimus nihil, quia modi.</p>
+			</div>
+		</article>
+
+	</section>
+
+	<footer>
+		<address>
+			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, inventore. @2021
+		</address>
+		<div class="">
+			<a href="#">Facebook</a> |
+			<a href="#">Twitter</a> |
+			<a href="#">Instagram</a>
+		</div>
+	</footer>
+</div>
 </body>
 </html>
