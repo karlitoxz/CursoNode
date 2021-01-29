@@ -1,0 +1,26 @@
+body{
+	background-image: url(../img/fondo.png);
+	background-attachment: fixed;
+	background-blend-mode: luminosity;
+}
+
+.img-icono{
+	height: 40vh;
+}
+
+.img-consola{
+	height: 25vh;
+	padding: 1vh 1vw;
+}
+
+.copyright{
+	color: white;
+}
+
+.copyright a{
+	color: white !important;
+}
+
+.formulario{
+	color: white;
+}
