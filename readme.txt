@@ -5,6 +5,8 @@ Assets:
 Profesor:
 	Jeisson Rojas.
 	https://github.com/jefraroce
+	github.com/jefraroce/gui-bit-cenisoft-bookstore
+	gitkraken
 
 bootstrap: v4.6
 
