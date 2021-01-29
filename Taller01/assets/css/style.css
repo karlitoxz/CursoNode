@@ -1,0 +1,25 @@
+.navbgcolor{
+	background-color: #025e73;
+}
+
+.titulo{
+	color: #707070;
+}
+
+.imgBook{
+	max-width: 100%;
+}
+
+.contenido{
+	height: 71vh;
+}
+
+@media (max-width: 575px){
+	.imgBook{
+		max-width: 100%;
+	}
+	.contenido{
+		height: 34vh;
+	}
+}
+
