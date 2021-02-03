@@ -18,4 +18,24 @@ router.post('/', async(req, res)=>{
     res.status(201).send(resultado);
 })
 
+
+router.delete('/:id', async(req,res) =>{
+    const game = await Game.findByIdAndDelete(req.params.id)
+    res.json({"message":"the game has been deleted"});
+});
+
+
+router.put('/:id', async(req, res, next) =>{
+
+    const id = req.params.id;
+    
+    const game = await Game.findByIdAndUpdate(id, req.body, (err, post) => {
+        if(err) {
+            res.status(500).json({err});
+        }
+        res.status(200).json({post});
+    });
+
+});
+
 module.exports = router;

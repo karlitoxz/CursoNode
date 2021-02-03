@@ -10,5 +10,8 @@ Inicializar el proyecto:
 Instalar mogoose para comunicar con la base de datos mongoDB
     npm install mongoose
 
+Iniciar el servidor
+    node index.js
+
 API con express :
     https://rickandmortyapi.com/
