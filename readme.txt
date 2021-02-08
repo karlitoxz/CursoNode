@@ -14,7 +14,8 @@ bootstrap: v4.6
 	repasar: 
 
 8:01 p. m.
-css-tricks.com/snippets/css/a-guide-to-flexbox 
+css-tricks.com/snippets/css/a-guide-to-flexbox
+flexbox froggy : flexboxfroggy.com 
 
 8:01 p. m.
 css-tricks.com/snippets/css/complete-guide-grid 
