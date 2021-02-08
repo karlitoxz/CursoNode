@@ -2,6 +2,7 @@ const express = require('express');
 
 const app = express();
 const clienteRoutes = require('./components/client/routes')
+const bookRoutes = require('./components/book/routes')
 const mongoose = require('mongoose')
 
 mongoose.connect('mongodb://localhost:27017/bookstore', {useNewUrlParser:true, useFindAndModify: false})
@@ -11,6 +12,7 @@ mongoose.connect('mongodb://localhost:27017/bookstore', {useNewUrlParser:true, u
 //Routes
 app.use(express.json());
 app.use('/clients', clienteRoutes)
+app.use('/books', bookRoutes)
 
 const port = process.env.PORT || 3000;
 

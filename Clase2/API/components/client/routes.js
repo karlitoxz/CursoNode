@@ -41,7 +41,9 @@ router.put('/:id', async(req, res, next) => {
 //DELETE by ID
 router.delete('/:id', async(req, res) => {
     const client = await Client.findByIdAndDelete(req.params.id)
-    res.status(200).json({"message":"the game has been deleted"});
+    res.status(200).json({"message":"the client has been deleted"});
 })
 
 module.exports = router;
+
+/*{ "name": "Juan 02", "address": "Calle 40 a sur", "mobile": "31381333 95", "email": "juan@juanserver.com", "password": "PassWord 02" }*/
